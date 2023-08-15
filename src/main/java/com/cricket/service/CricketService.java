@@ -102,7 +102,9 @@ public class CricketService {
 
 	public Cricket getById(int id) throws IdNotFoundException {
 		// TODO Auto-generated method stub
+		System.out.println("Print id:"+id);
 		return cricketDao.getById(id);
+		
 	}
 
 //	public List<Cricket> getGroupByCountry() {
